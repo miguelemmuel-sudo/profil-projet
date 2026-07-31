@@ -1,0 +1,141 @@
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 5rem;
+  background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: -20%;
+  right: -10%;
+  width: 50vw;
+  height: 50vw;
+  background: radial-gradient(circle, rgba(21, 128, 61, 0.05) 0%, rgba(255,255,255,0) 70%);
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-badge {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: rgba(21, 128, 61, 0.1);
+  color: var(--primary-dark);
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-title span {
+  color: var(--primary);
+}
+
+.hero-title span:last-child {
+  color: var(--secondary);
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: var(--text-muted);
+  margin-bottom: 2.5rem;
+  max-width: 500px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.hero-image-wrapper {
+  position: relative;
+  border-radius: var(--radius);
+}
+
+.hero-image-bg {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary);
+  border-radius: var(--radius);
+  z-index: -1;
+  opacity: 0.1;
+  transform: rotate(-3deg);
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  object-fit: cover;
+  display: block;
+}
+
+.hero-card {
+  position: absolute;
+  bottom: -2rem;
+  left: -2rem;
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+}
+
+.hero-card h3 {
+  font-size: 1.25rem;
+  color: var(--primary-dark);
+  margin-bottom: 0.25rem;
+}
+
+.hero-card p {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+}
+
+@media (max-width: 992px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .hero-subtitle {
+    margin: 0 auto 2.5rem;
+  }
+  .hero-actions {
+    justify-content: center;
+  }
+  .hero-image-wrapper {
+    margin-top: 3rem;
+  }
+  .hero-card {
+    left: 1rem;
+    bottom: -1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+}
