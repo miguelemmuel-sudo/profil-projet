@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   padding-top: 5rem;
+  padding-bottom: 4rem;
   background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%);
   position: relative;
   overflow: hidden;
@@ -127,15 +128,30 @@
   }
   .hero-image-wrapper {
     margin-top: 3rem;
+    margin-bottom: 2rem;
   }
   .hero-card {
-    left: 1rem;
-    bottom: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -2rem;
+    width: 90%;
+    text-align: center;
   }
 }
 
 @media (max-width: 576px) {
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
+  }
+  .hero-card {
+    width: 95%;
+    padding: 1rem;
+  }
+  .hero-actions {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .hero-actions .btn {
+    width: 100%;
   }
 }

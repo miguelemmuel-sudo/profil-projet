@@ -84,4 +84,8 @@
   .about-features {
     grid-template-columns: 1fr;
   }
+  .about-experience {
+    right: 1rem;
+    top: -1rem;
+  }
 }
