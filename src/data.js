@@ -75,5 +75,29 @@ export const testimonials = [
     rating: 5,
     before: "/assets/avant.jfif",
     after: "/assets/apres.jfif"
+  },
+  {
+    id: 2,
+    name: "Marie-Claire T.",
+    text: "Je souffrais de douleurs articulaires atroces depuis des années. J'avais presque perdu espoir de pouvoir marcher sans douleur. Après seulement quelques semaines d'utilisation de Rocenta, mes genoux ne me font plus souffrir. J'ai retrouvé une seconde jeunesse et je peux enfin jouer avec mes petits-enfants. C'est un véritable miracle !",
+    rating: 5
+  },
+  {
+    id: 3,
+    name: "Jean-Paul M.",
+    text: "Ayant traversé une période de maladie très éprouvante, mon système immunitaire était au plus bas. J'étais constamment épuisé. Rocenta m'a redonné la force de vivre. Mon énergie est revenue de manière spectaculaire, mon sommeil est redevenu profond et réparateur. Je ne pourrai jamais assez remercier Dynace pour ce produit.",
+    rating: 5
+  },
+  {
+    id: 4,
+    name: "Aminata S.",
+    text: "Mon taux de sucre dans le sang était instable et cela me causait énormément d'inquiétude au quotidien. Depuis que j'ai intégré Rocenta à ma routine, mes résultats se sont stabilisés de façon incroyable. Mon médecin lui-même n'en revenait pas. Je me sens revivre, avec une vraie tranquillité d'esprit.",
+    rating: 5
+  },
+  {
+    id: 5,
+    name: "Sophie L.",
+    text: "Au-delà de la vitalité incroyable que ce produit m'apporte, les effets sur ma santé générale sont magiques. C'est comme si mon corps se régénérait de l'intérieur. Mon métabolisme s'est amélioré et je me sens tellement plus légère. Rocenta a littéralement changé ma vie, tant physiquement que moralement.",
+    rating: 5
   }
 ];
