@@ -10,47 +10,89 @@ export const products = [
   {
     id: "rocenta",
     name: "Dynace Rocenta",
-    image: "/assets/WhatsApp Image 2026-07-02 at 19.26.15 (1).jpeg",
-    tagline: "Cellules Souches Végétales",
-    description: "Dynace Rocenta est la cellule souche végétale par excellence, un puissant antioxydant conçu pour régénérer le corps et retarder le vieillissement.",
+    image: "/images/products/image1.jfif",
+    tagline: "L'Innovation Botanique pour votre Bien-être",
+    description: "ROCENTA est un produit de l'innovation botanique avec une nouvelle formule pour apporter le bien-être et nous aider à nous rajeunir et à nous éloigner des maladies dégénératives. DYNACE ROCENTA est utilisé pour régénérer et réparer les tissus et les cellules endommagées de notre corps. Il soutient la moelle osseuse sur la production et l'augmentation des cellules de notre corps.",
     benefits: [
       "Puissant antioxydant, retarde le vieillissement prématuré et régénère les organes",
       "Renforce le système immunitaire",
-      "Élimine les métaux lourds de l'organisme",
+      "Élimine les métaux lourds produits par l'environnement",
       "Améliore la qualité du sommeil",
       "Favorise l'effet amincissant et stimule le métabolisme",
       "Améliore la circulation sanguine",
       "Régule le taux de sucre dans le sang",
-      "Booste la mémoire et les fonctions cognitives",
-      "Soutient la santé articulaire et osseuse",
-      "Stimule l'énergie vitale"
+      "Booste votre mémoire et les fonctions cognitives",
+      "Soutient la santé articulaire et les os",
+      "Stimule l'énergie"
+    ]
+  },
+  {
+    id: "urbanism",
+    name: "Dynace Urbanism",
+    image: "/images/products/image2.jfif",
+    tagline: "Santé Digestive et Détox",
+    description: "Avec ses bonbons rouge et noir qui vous permettent de maintenir une bonne santé du côlon et du système digestif en particulier. Libèrent le corps des toxines et des impuretés.",
+    benefits: [
+      "Maintient une bonne santé du côlon et du système digestif",
+      "Libère le corps des toxines et des impuretés",
+      "Purifie le sang et brûle les graisses excédentaires",
+      "Soutient le nettoyage des reins",
+      "Stabilise la glycémie"
+    ]
+  },
+  {
+    id: "lyftmax",
+    name: "Dynace Lyftmax",
+    image: "/images/products/image3.jfif",
+    tagline: "Santé et Confiance de la Femme",
+    description: "LYFTMAX est un complément révolutionnaire conçu pour améliorer la santé et la confiance des femmes. Formulé à partir des éléments naturels puissants, LYFTMAX favorise une poitrine plus ferme et plus tonique.",
+    benefits: [
+      "Favorise une poitrine plus ferme et plus tonique, remodèle et agrandit",
+      "Stimule les hormones et améliore la peau",
+      "Augmente le flux sanguin et la libido",
+      "Favorise la santé vaginale",
+      "Défense quotidienne pour une vie sexuelle plus saine"
+    ]
+  },
+  {
+    id: "triple-root",
+    name: "Dynace Triple Root",
+    image: "/images/products/image4.jfif",
+    tagline: "Café aux Trois Racines",
+    description: "Le café triple root (TROIS RACINES) est un mélange de café arabica de première qualité infusé avec des extraits de GINSENG, d'ASHWAGANDHA, de TONGKAT ALI et MACA. Profitez de ce mélange pratique et puissant vitalité du bien-être dans chaque tasse. (Recommandé uniquement aux hommes).",
+    benefits: [
+      "Stimule l'énergie",
+      "Améliore la concentration",
+      "Réduit le stress",
+      "Soutient la santé sexuelle des hommes"
     ]
   },
   {
     id: "collagene",
     name: "Dynace Collagène",
-    image: "/assets/WhatsApp Image 2026-07-17 at 13.13.34 (1).jpeg",
+    image: "/images/products/image5.jfif",
     tagline: "Beauté Intérieure et Extérieure",
-    description: "Complément de haut de gamme formulé avec des ingrédients scientifiquement prouvés pour soutenir la santé de la peau, des cheveux et la vitalité générale.",
+    description: "DYNACE COLLAGÈNE est un complément de haut de gamme qui soutient la santé de la peau, renforce les cheveux et améliore la vitalité générale. Formulé avec les ingrédients scientifiquement prouvés. Il favorise le bien-être intérieur et extérieur pour une beauté durable.",
     benefits: [
       "Améliore l'élasticité de la peau",
-      "Réduit les chutes de cheveux et renforce les ongles",
+      "Réduit les chutes de cheveux et améliore la solidité des ongles",
       "Favorise la relaxation et la clarté mentale",
       "Maintient la densité et la flexibilité osseuse",
       "Protège les cellules contre le stress oxydatif"
     ]
   },
   {
-    id: "triple-root",
-    name: "Dynace Triple Root",
-    image: "/assets/WhatsApp Image 2026-07-17 at 13.16.30.jpeg",
-    tagline: "Café aux Trois Racines",
-    description: "Un mélange de café Arabica de première qualité infusé avec des extraits de Ginseng, Ashwagandha, Tongkat Ali et Maca. Recommandé uniquement aux hommes.",
+    id: "aceguard",
+    name: "Dynace Aceguard",
+    image: "/images/products/image6.jfif",
+    tagline: "Défense Immunitaire",
+    description: "ACEGUARD est un puissant supplément de santé conçu pour renforcer le système immunitaire, améliorer le contrôle du sucre et promouvoir le bien-être général. ACEGUARD est votre défense quotidienne pour une vie plus saine.",
     benefits: [
-      "Stimule l'énergie et la vitalité",
-      "Améliore la concentration",
-      "Réduit le stress",
-      "Soutient la santé sexuelle et masculine"
+      "Offre un soutien antioxydant puissant",
+      "Réduit l'inflammation",
+      "Aide à la réparation et la revitalisation des cellules",
+      "Renforce le système immunitaire",
+      "Améliore le contrôle du sucre"
     ]
   }
 ];
