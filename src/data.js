@@ -29,7 +29,7 @@ export const products = [
   {
     id: "urbanism",
     name: "Dynace Urbanism",
-    image: "/images/products/image2.jfif",
+    image: "/images/products/image3.jfif",
     tagline: "Santé Digestive et Détox",
     description: "Avec ses bonbons rouge et noir qui vous permettent de maintenir une bonne santé du côlon et du système digestif en particulier. Libèrent le corps des toxines et des impuretés.",
     benefits: [
@@ -43,7 +43,7 @@ export const products = [
   {
     id: "lyftmax",
     name: "Dynace Lyftmax",
-    image: "/images/products/image3.jfif",
+    image: "/images/products/image4.jfif",
     tagline: "Santé et Confiance de la Femme",
     description: "LYFTMAX est un complément révolutionnaire conçu pour améliorer la santé et la confiance des femmes. Formulé à partir des éléments naturels puissants, LYFTMAX favorise une poitrine plus ferme et plus tonique.",
     benefits: [
@@ -57,7 +57,7 @@ export const products = [
   {
     id: "triple-root",
     name: "Dynace Triple Root",
-    image: "/images/products/image4.jfif",
+    image: "/images/products/image5.jfif",
     tagline: "Café aux Trois Racines",
     description: "Le café triple root (TROIS RACINES) est un mélange de café arabica de première qualité infusé avec des extraits de GINSENG, d'ASHWAGANDHA, de TONGKAT ALI et MACA. Profitez de ce mélange pratique et puissant vitalité du bien-être dans chaque tasse. (Recommandé uniquement aux hommes).",
     benefits: [
@@ -70,7 +70,7 @@ export const products = [
   {
     id: "collagene",
     name: "Dynace Collagène",
-    image: "/images/products/image5.jfif",
+    image: "/images/products/image6.jfif",
     tagline: "Beauté Intérieure et Extérieure",
     description: "DYNACE COLLAGÈNE est un complément de haut de gamme qui soutient la santé de la peau, renforce les cheveux et améliore la vitalité générale. Formulé avec les ingrédients scientifiquement prouvés. Il favorise le bien-être intérieur et extérieur pour une beauté durable.",
     benefits: [
@@ -84,7 +84,7 @@ export const products = [
   {
     id: "aceguard",
     name: "Dynace Aceguard",
-    image: "/images/products/image6.jfif",
+    image: "/images/products/image7.jfif",
     tagline: "Défense Immunitaire",
     description: "ACEGUARD est un puissant supplément de santé conçu pour renforcer le système immunitaire, améliorer le contrôle du sucre et promouvoir le bien-être général. ACEGUARD est votre défense quotidienne pour une vie plus saine.",
     benefits: [
